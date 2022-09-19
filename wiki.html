@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho = introduz algo -->
+        <h1>Estudo de HTML</h1>
+        <h3>Conceitos introdutorios da linguagem</h3>
+        <nav> <!-- Agrupa links de navegação -->
+         <ol>
+            <li><a href="#intro">Introdução</a></li>
+         </ol>
+        </nav>
+    </header>
+    <main> <!-- Conteudo principal da pagina -->
+       <section> <!-- Separa topicos/conteudos -->
+          <h3>Uso de tags</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,<br>
+             eaque velit. Ab, necessitatibus nam repellat corrupti facere sunt incidunt rem,<br>
+              ipsam odit sapiente, voluptates officiis velit. Recusandae, facere deserunt! Quisquam?
+          </p>
+       </section>
+       <section>
+        <h3>Uso de tabelas</h3>
+        <table border="1" cellpadding="3" style="border-collapse: collapse;"> 
+            <thead> <!-- Cabeçalho da tabela -->
+                <tr>
+                    <!-- colspan = duração da coluna-->
+                    <th colspan="4">Usuário</th>
+                </tr>
+                <tr><!--Tabela Row -->
+                    <th>Tipo</th>
+                    <th>Nome</th> <!-- Tabela Header -->
+                    <th>CPF</th>
+                    <th>Data Nasc</th>
+                 </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Funcionario</td>
+                    <td>Joane Barros</td>
+                    <td>000.000.000-00</td>
+                    <td>20/12/1994</td>
+                </tr>
+                <tr>
+                    <td>Lucas Santos</td> <!-- Table Date -->
+                    <td>000.000.000-00</td>
+                    <td>14/08/1992</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Cliente</td> 
+                    <td>Maria Eduarda</td>
+                    <td>000.000.000-00</td>
+                    <td>02/08/1996</td>
+                </tr>
+                <tr>
+                   <td>Natalia Santos</td>
+                   <td>000.000.000-00</td>
+                   <td>20/05/1990</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table border="1" cellpadding="4" style="border-coooapse: collapse">
+            <tr>
+                <td colspan="2">Celula 1-1</td>
+                <td>celula 1-3</td>
+            </tr>
+            <tr>
+                <td>celula 2-1</td>
+                <td>celula 2-2</td>
+                <td>celula 2-3</td>
+            </tr>
+
+        </table>
+       </section>
+    </main>
+    <hr> <!-- Horizontal Rule -->
+    <footer> <!-- Da informações sobre autoria/encerra o conteudo-->
+     &copy;
+     <script>
+        // Comentario
+        document.write(new Date().getFullYear())
+    </script>
+      SoulCode Academy
+    </footer>
+    
+</body>
+</html>
