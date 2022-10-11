@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.links {
+    text-align: center;
+    padding: 8px;
+}
+
+.bododromo-style {
+    text-align: center;
+}
+
+.igreja {
+    text-align: center;
+}
+.rodape {
+    text-align: center;
+}
